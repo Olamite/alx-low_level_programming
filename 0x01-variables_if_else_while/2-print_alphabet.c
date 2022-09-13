@@ -1,26 +1,25 @@
 #include <stdio.h>
 
 /**
-* main - print if the number is poitive, zero, or negative
+* main - print lowervase a-z
 *
 * Description: using the main function
-* this program prints "Programming is positive, zero, or negative"
 * Return: 0
 */
 
 int main(void)
 {
+
+	char alpha = 'a';
+
+	while (alpha <= 'z')
 {
-	char ch;
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-}
-{
-	putchar(ch);
+	putchar(alpha);
+	alpha++;
 }
 {
 	putchar('\n');
 }
-	putchar('\n');
 	return (0);
 }
 
