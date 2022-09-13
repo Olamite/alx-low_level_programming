@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-
-
 /**
- *
  * main - prints hexadecimal numbers base 0123456789abcdef, using putchar
  * Return: Always 0 (Success)
  */
@@ -29,6 +26,7 @@ int main(void)
 	putchar(a_to_f);
 	a_to_f++;
 }
+	putchar ('\n');
 
 	return (0);
 
