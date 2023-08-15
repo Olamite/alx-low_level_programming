@@ -1,2 +1,0 @@
-Malloc Free tasks - ALX
-
